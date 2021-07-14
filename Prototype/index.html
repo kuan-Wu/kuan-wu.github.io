@@ -1,122 +1,212 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Prototype</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Ice Bear Ice Cream</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <div class="logo">
-                    <img src="img/Ice-bear-logo.jpg" alt="ice bear ice cream">
-                    <p>Ice Bear Ice Cream</9>
-            </div>
-            <div class="banner">
-                <span>HOME</span>
-                <span>MENU</span>
-                <span>LOCATION</span>
-                <span>CONTACT</span>
-            </div>
-            <form>
-                <input type="text" id="Search" name="search" placeholder="Search">
-                <button type="button">OK</button>
-            </form>
-            </div>
-            
-            <div class="social-links">
-                <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
-                <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
-                <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
-            </div>
-         </nav>
+    <div id="header">
         
-            <div class="container">
-                <div class="logo">
-                    <img src="img/Ice-bear-logo.jpg" alt="ice bear ice cream">
-                </div>
-                <div class="bg">
-                    <img src="img/strawberry-ice.jpg" alt="strawberry ice cream">
-                </div>
-                <h1>Ice Bear Ice Cream</h1>
-                <p>A Whole New Shop That You Can Customize Your Ice Cream By Yourself.</p>
-                <button class="order now"></button>
-
-            </div>   
-    </header>
-
-    <main>
-        <div class="menu">
-            <h2>Menu</h2>
-            <div class="block">
-                <img src="img/purple-ice.jpg" alt="purple ice cream">
-                <img src="img/cup-ice.jpg" alt="cup ice cream">
-                <img src="img/pink-ice.jpg" alt="pink ice cream">
-                <img src="img/blackberry-ice.jpg" alt="blackberry ice cream">
-            </div>
-        </div>
-        
-        <div class="location">
-            <h2>Location</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5686.373645143984!2d-75.7585300355082!3d45.346776149905374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20%E2%80%93%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1617292024726!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-
-        <div class="business">
-            <h2>Business Hours</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Weekend</th>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th> 
-                    </tr>
-                </thead>
-                
-                <tbody>
-                    <tr>
-                        <td>9:00-17:00</td>
-                        <td>Closed</td>
-                        <td>9:00-17:00</td>
-                        <td>9:00-17:00</td>
-                        <td>Closed</td>
-                        <td>9:00-17:00</td>
-                    </tr>
-                  </tbody>
-            </table>
-        </div>
-    </main>
-
-    <footer>
         <div class="container">
-            <p>Contact Us</p>
-            <form>
-                <input type="text" id="Search" name="search" placeholder="Search">
-                <button type="button">OK</button>
-            </form>
-            <ul class="bar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Location</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
+            <div id="header-logo">
+                <img src="img/Ice-bear-logo.jpg" alt="Ice-bear-logo">
+                <span>Ice Bear Ice Cream</span>
+            </div>
+        </div>
+            
+            
+        <div class="container">
+            <div id="header-menu">
+                <a href="#">HOME</a>
+                <a href="#">MENU</a>
+                <a href="#">LOCATION</a>
+                <a href="#">CONTACT</a>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div id="header-search">
+                <div class="links">
+                    <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="Search" class="input-search">
+                    <button class="input-button">OK</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 
-            <ul class="address">
-                <li><a href="#">1385 Woodroffe Ave, Nepean, ON K2G 1V8</a></li>
-                <li><a href="#">613 727-4723</a></li>
-                <li><a href="#">algonquincollege.com</a></li>
-            </ul>
+    <div id="cont-1">
+        <img src="img/strawberry-ice.jpg" alt="strawberry-ice-cream">
+        <div>
+            <div id="cont-1-logo">
+                <img src="img/Ice-bear-logo.jpg" alt="Ice-bear-logo">
+            </div>
+            <div id="cont-1-title">
+                <h1>Ice Bear Ice Cream</h1>
+            </div>
+            <div id="cont-1-content">
+                <p>A Whole New Shop That You Can Customize Your Ice Cream By Yourself</p>
+            </div>
+            <div id="cont-1-button">
+                <button>
+                    Order Now !
+                </button>
+            </div>
         </div>
-        <div class="social-links">
-            <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
-            <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
-            <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
+
+    </div>
+
+    <div id="cont-2">
+        <div class="container">
+            <h1>Menu</h1>
+            
+                <div class="block">
+                    <img src="img/purple-ice.jpg" alt="purple-ice-cream">
+                    <span>Ice Cream</span>
+                </div>
+                <div class="block">
+                    <img src="img/cup-ice.jpg" alt="cup-ice-cream">
+                    <span>Ice Cream</span>
+                </div>
+           
+           
+                <div class="block">
+                    <img src="img/pink-ice.jpg" alt="pink-ice-cream">
+                    <span>Ice Cream</span>
+                </div>
+                <div class="block">
+                    <img src="img/blackberry-ice.jpg" alt="blackberry-ice-cream">
+                    <span>Ice Cream</span>
+                </div>
+            
         </div>
-    </footer>
+    </div>
+   
+    <div id="cont-3">
+        <div class="container">
+            <h1>
+                Location
+            </h1>
+            
+            <div class="location">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5686.373645143984!2d-75.7585300355082!3d45.346776149905374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20%E2%80%93%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1617292024726!5m2!1sen!2sca" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                    
+                
+                <div class="contact">
+                    <p>1385 Woodroffe Ave, Nepean,</p>
+                    <p>ON K2G 1V8</p>
+                    <p>613 727-4723</p>
+                    <p>algonquincollege.com</p>
+                </div>
+            </div>
+    
+            <div class="business">
+                <h1>
+                    Business hours
+                </h1>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="block">
+                            <p>Weekend</p>
+                            <p>9:00 - 17:00</p>
+                        </div>
+                        <div class="block">
+                            <p>Monday</p>
+                            <p>Closed</p>
+                        </div>
+                        <div class="block">
+                            <p>Tuesday</p>
+                            <p>9:00 - 17:00</p>
+                        </div>
+                        <div class="block">
+                            <p>Wednesday</p>
+                            <p>9:00 - 17:00</p>
+                        </div>
+                        <div class="block">
+                            <p>Thursday</p>
+                            <p>Closed</p>
+                        </div>
+                        <div class="block">
+                            <p>Friday</p>
+                            <p>9:00 - 17:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer">
+        <div class="container">
+          <div class="contact">
+            
+                <div class="icon">
+                    <h1>
+                        Contact US
+                    </h1>
+                    <div>
+                        <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+                        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+                <div style="width:100%;">
+                    <input class="footer-input" type="text" placeholder="Search">
+                    <button class="footer-button">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                <div class="container">
+                    <div class="footer-icon">
+                        <Span>Home</Span>
+                    </div>
+
+                    <div class="footer-icon">
+                        <Span>Menu</Span>
+                    </div>
+
+                    <div class="footer-icon">
+                        <Span>Location</Span>
+                    </div>
+
+                    <div class="footer-icon">
+                        <Span>Coutact US</Span>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h1>
+                        Contact Us
+                    </h1>
+
+                    <div >
+                        <input class="footer-input" type="text" placeholder="Search">
+                        <button class="footer-button">OK</button>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div>1385 Woodroffe Ave, Nepean, ON K2G 1V8</div>
+                    <div>613 727-4723</div>
+                    <div>algonquincollege.com</div>
+                </div>
+            
+        
+    
 </body>
 </html>

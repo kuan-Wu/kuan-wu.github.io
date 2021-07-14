@@ -1,0 +1,37 @@
+
+
+background-color: Used to color the place which marked #header and the color place usually is big area.
+
+position: relative; this element is used to position and the values "relative" can positioning the stuff itself without moving other subject.
+
+
+positon: fixed; this elemet can stick a browser in the same positon.
+
+
+
+display: flex; to star a flexible box container need to type this "display: flex;" first.
+
+justify-content: space-around; there will have a little space around the box.
+
+
+align-items: center; box will move vertically and finally in the center.
+
+text-decoration: none; decorate the text and the values none means default.
+
+margin: auto; margin is the edge of the outermost frame of the object and the value auto is the margin it will automatically stretch equally with each side.
+
+placeholder used to make text box have words inside.
+
+object-fit: cover; this property can squeeze the image and then without change it's ratio.
+
+position:absolute; this property will postion a stuff absolutely.
+
+animation-name: order-now; this property is give a animation a name to track it.
+
+animation-duration: this property make animate duration.
+
+The @keyframes can organize the animate movement. Set the time and animation from in it and the animation will follow the order.
+
+@media screen and (max-width:) media query make webpage to resize and all the property in it will resize or repositon. the max-width mean browsers's largest size, so the window need to smaller than the maximum value to have an effect. 
+
+
