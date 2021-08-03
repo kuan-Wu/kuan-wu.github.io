@@ -1,0 +1,94 @@
+Images reference:
+
+https://unsplash.com/photos/Nkdn7qdBqAM
+
+https://unsplash.com/photos/NWXeyrxsSVI
+
+https://unsplash.com/photos/4FujjkcI40g
+
+https://unsplash.com/photos/iSLKFbhkGBw
+
+https://unsplash.com/photos/dHQQv-BKTjo
+
+https://unsplash.com/photos/qdDQ6V7lV9Y
+
+
+
+
+Content:
+
+bg-secondary: change background color to gray
+
+
+text-white: change text color to white
+
+
+navbar: the first component to start the navbar
+
+
+navbar-dark: make navbar theme become black
+
+
+bg-dark: change background color to black
+
+
+navbar-expand-sm:  make navbar responsive to change to other size
+
+
+navbar-brand: add a logo on navbar
+
+
+navbar-nav: usually use to wrap all the navbar components
+
+
+ml-sm-auto: automatically margin left in small size
+
+
+nav-item: usually follow the lists tag
+
+
+nav-link: usually follow the anchor tag
+
+
+input-group: a group of forms for input such as text, buttons
+
+
+btn btn-outline-light: button tag with white outline
+
+
+position-relative: positioned the elements from original position
+
+
+position- absolute: positioned elements from the browser top left corner
+
+
+translate-middle-x: positioned the elements vertical direction
+
+
+justify-content-center: center the elements
+
+
+mt-3: margin top default
+
+
+row: to start a column grid need a row
+
+
+col-md-6: column to have 6 in 12 when the browser size is middle 
+
+
+card text-center: to center the text on the card
+
+
+card: to start the card components
+
+
+card-img-top: to create image on the top of the card
+
+
+card-body: the content of the card, such as images and text
+
+
+card-title: card’s title 
+
+
