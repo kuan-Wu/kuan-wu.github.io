@@ -1,7 +1,9 @@
 Reflection:
+
 I feel that coding a website by myself is quite challenging, especially using grid and flex box property. I found out that although I have understood the function of flex box and grid property, I am still not good at it. However, after I learn the bootstrap, it is easier to organize the grid. So most of the grid layout of this website I use bootstrap grid to design. I have learned various functions of bootstrap properties, moreover, I think some of the layout would be specific when I use a CSS grid, so from now I need to work harder to make the web portfolio more professional.
 
-References
+References:
+
 -	Illustration design by me: Ice Boba Tea Logo
 -	Photo of homepage background: https://unsplash.com/photos/Nkdn7qdBqAM
 -	Photo of teapot: https://unsplash.com/photos/7EeeSN-eGsI
