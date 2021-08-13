@@ -9,7 +9,7 @@ References:
 -	Photo of teapot: https://unsplash.com/photos/7EeeSN-eGsI
 -	Photo of pink beverage: https://unsplash.com/photos/NWXeyrxsSVI
 -	Photo of Oreo beverage: https://unsplash.com/photos/4FujjkcI40g
--	Photo of chocolate milk shake: https://unsplash.com/photos/iSLKFbhkGBw
+-	Photo of chocolate milkshake: https://unsplash.com/photos/iSLKFbhkGBw
 -	Photo of Boba tea: https://unsplash.com/photos/dHQQv-BKTjo
 -	Photo of coffee: https://unsplash.com/photos/qdDQ6V7lV9Y
 -	Photo of coffee: https://unsplash.com/photos/L-sm1B4L1Ns
